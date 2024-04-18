@@ -1,0 +1,90 @@
+[0.417s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.417s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1dc2c43fa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1dc30c7820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1dc30c7820>>)
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.439s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'camera_calibration'
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.499s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/mechax/ws_livox/install
+[0.506s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 340 installed packages in /opt/ros/humble
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_args' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_target' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.559s] DEBUG:colcon.colcon_core.verb:Building package 'camera_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration', 'merge_install': False, 'path': '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration', 'symlink_install': False, 'test_result_base': None}
+[0.564s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.571s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.571s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration' with build type 'ament_python'
+[0.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration', 'ament_prefix_path')
+[0.578s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/camera_calibration/hook/ament_prefix_path.ps1'
+[0.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/camera_calibration/hook/ament_prefix_path.dsv'
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/camera_calibration/hook/ament_prefix_path.sh'
+[0.585s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.585s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.727s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration'
+[0.734s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.734s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration': PYTHONPATH=/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/prefix_override:/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/camera_calibration build --build-base /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build install --record /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/install.log --single-version-externally-managed
+[1.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration' returned '0': PYTHONPATH=/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/prefix_override:/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/camera_calibration build --build-base /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build install --record /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/install.log --single-version-externally-managed
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration' for CMake module files
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration' for CMake config files
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/bin'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/pkgconfig/camera_calibration.pc'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages'
+[1.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration', 'pythonpath')
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/camera_calibration/hook/pythonpath.ps1'
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/camera_calibration/hook/pythonpath.dsv'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/camera_calibration/hook/pythonpath.sh'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/bin'
+[1.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_calibration)
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/camera_calibration/package.ps1'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/camera_calibration/package.dsv'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/camera_calibration/package.sh'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/camera_calibration/package.bash'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/camera_calibration/package.zsh'
+[1.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/colcon-core/packages/camera_calibration)
+[1.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.112s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.121s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.121s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.121s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.129s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.146s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/local_setup.ps1'
+[1.147s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/_local_setup_util_ps1.py'
+[1.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/setup.ps1'
+[1.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/local_setup.sh'
+[1.155s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/_local_setup_util_sh.py'
+[1.155s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/setup.sh'
+[1.162s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/local_setup.bash'
+[1.162s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/setup.bash'
+[1.168s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/local_setup.zsh'
+[1.169s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/setup.zsh'

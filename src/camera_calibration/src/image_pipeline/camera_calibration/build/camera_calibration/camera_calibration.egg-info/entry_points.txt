@@ -1,0 +1,4 @@
+[console_scripts]
+cameracalibrator = camera_calibration.nodes.cameracalibrator:main
+cameracheck = camera_calibration.nodes.cameracheck:main
+

@@ -1,0 +1,57 @@
+[0.387s] Invoking command in '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration': PYTHONPATH=/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/prefix_override:/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/camera_calibration build --build-base /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build install --record /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/install.log --single-version-externally-managed
+[0.502s] running egg_info
+[0.503s] creating build/camera_calibration/camera_calibration.egg-info
+[0.503s] writing build/camera_calibration/camera_calibration.egg-info/PKG-INFO
+[0.503s] writing dependency_links to build/camera_calibration/camera_calibration.egg-info/dependency_links.txt
+[0.503s] writing entry points to build/camera_calibration/camera_calibration.egg-info/entry_points.txt
+[0.503s] writing requirements to build/camera_calibration/camera_calibration.egg-info/requires.txt
+[0.503s] writing top-level names to build/camera_calibration/camera_calibration.egg-info/top_level.txt
+[0.503s] writing manifest file 'build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[0.504s] reading manifest file 'build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[0.504s] writing manifest file 'build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[0.504s] running build
+[0.504s] running build_py
+[0.504s] creating /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build
+[0.505s] creating /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib
+[0.505s] creating /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration
+[0.505s] copying src/camera_calibration/camera_checker.py -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration
+[0.505s] copying src/camera_calibration/camera_calibrator.py -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration
+[0.505s] copying src/camera_calibration/__init__.py -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration
+[0.505s] copying src/camera_calibration/calibrator.py -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration
+[0.505s] creating /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes
+[0.505s] copying src/camera_calibration/nodes/cameracalibrator.py -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes
+[0.505s] copying src/camera_calibration/nodes/cameracheck.py -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes
+[0.505s] copying src/camera_calibration/nodes/__init__.py -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes
+[0.505s] running install
+[0.505s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.505s]   warnings.warn(
+[0.505s] running install_lib
+[0.506s] creating /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[0.506s] copying /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration/camera_checker.py -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[0.506s] creating /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes
+[0.506s] copying /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes/cameracalibrator.py -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes
+[0.506s] copying /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes/cameracheck.py -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes
+[0.506s] copying /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes/__init__.py -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes
+[0.506s] copying /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration/camera_calibrator.py -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[0.506s] copying /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration/__init__.py -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[0.506s] copying /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build/lib/camera_calibration/calibrator.py -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[0.506s] byte-compiling /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/camera_checker.py to camera_checker.cpython-310.pyc
+[0.507s] byte-compiling /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes/cameracalibrator.py to cameracalibrator.cpython-310.pyc
+[0.508s] byte-compiling /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes/cameracheck.py to cameracheck.cpython-310.pyc
+[0.508s] byte-compiling /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes/__init__.py to __init__.cpython-310.pyc
+[0.508s] byte-compiling /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/camera_calibrator.py to camera_calibrator.cpython-310.pyc
+[0.509s] byte-compiling /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/__init__.py to __init__.cpython-310.pyc
+[0.509s] byte-compiling /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/calibrator.py to calibrator.cpython-310.pyc
+[0.515s] running install_data
+[0.515s] creating /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/ament_index
+[0.515s] creating /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/ament_index/resource_index
+[0.515s] creating /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/ament_index/resource_index/packages
+[0.515s] copying resource/camera_calibration -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/ament_index/resource_index/packages
+[0.515s] copying package.xml -> /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/share/camera_calibration
+[0.516s] running install_egg_info
+[0.516s] Copying build/camera_calibration/camera_calibration.egg-info to /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration-3.0.0-py3.10.egg-info
+[0.516s] running install_scripts
+[0.528s] Installing cameracalibrator script to /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/camera_calibration
+[0.528s] Installing cameracheck script to /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/camera_calibration
+[0.528s] writing list of installed files to '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/install.log'
+[0.543s] Invoked command in '/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration' returned '0': PYTHONPATH=/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/prefix_override:/home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/camera_calibration build --build-base /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/build install --record /home/mechax/zyb/camera_calibration/src/image_pipeline/camera_calibration/build/camera_calibration/install.log --single-version-externally-managed

@@ -1,0 +1,5 @@
+Log file created at: 2023/12/22 20:49:02
+Running on machine: mechax-NUC13ANHi5
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1222 20:49:02.283409  5527 MVCameraBase.cpp:99] Device:(name:5745 sn:021040120467)Lost
+W1222 20:49:03.881865  5527 MVCameraBase.cpp:119] Device:(name:5745 sn:021040120467)ReConnected, TolCount:1

@@ -1,0 +1,4 @@
+Log file created at: 2024/02/25 22:18:16
+Running on machine: mechax-NUC13ANHi5
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0225 22:18:16.890955 43643 MVCameraBase.cpp:98] Device:(name:MV-UB31#0 sn:021040120485)Lost
