@@ -1,0 +1,4 @@
+Log file created at: 2023/12/26 18:38:08
+Running on machine: mechax-NUC13ANHi5
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E1226 18:38:08.822464 513572 MVCAMAPI.cpp:350] CameraInit Failed, err:-18,Version:2.1.0.37,FriendlyName:5745,SN:021040120467
