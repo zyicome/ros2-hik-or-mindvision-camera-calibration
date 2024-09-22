@@ -21,15 +21,15 @@ colcon build
 
 ### hik相机标定：
 ```shell
-	ros2 launch hik_camera hik_camera.launch.py  //hik相机启动
-	ros2 run camera_calibration cameracalibrator --size 6x7 --square 0.025 --ros-args -r image:=/image_raw -p camera:=/hik    // 开启标定程序 
-	//参数说明: --size 每次标定取的角点数，理论上越多标定越准确，但是棋盘图不清晰之类原因会导致无法一次识别到太多角点，根据实际调整即可   -- square 每个棋格的边长大小（m）
+ros2 launch hik_camera hik_camera.launch.py  //hik相机启动
+ros2 run camera_calibration cameracalibrator --size 6x7 --square 0.025 --ros-args -r image:=/image_raw -p camera:=/hik    // 开启标定程序 
+//参数说明: --size 每次标定取的角点数，理论上越多标定越准确，但是棋盘图不清晰之类原因会导致无法一次识别到太多角点，根据实际调整即可   -- square 每个棋格的边长大小（m）
 ```
 	                                        
 ### mindvision相机标定:
 ```shell
-    ros2 launch mindvision_camera mv_launch.py   //mindvision相机启动
-    ros2 run camera_calibration cameracalibrator --size 7x9 --square 0.02 --ros-args -r image:=/image_raw -p camera:=/my_camera
+ros2 launch mindvision_camera mv_launch.py   //mindvision相机启动
+ros2 run camera_calibration cameracalibrator --size 7x9 --square 0.02 --ros-args -r image:=/image_raw -p camera:=/my_camera
 ```
 ```bash
 注：自己用可视化工具进行亮度调节(foxglove或rqt)，亮度过低标定效果不好.
